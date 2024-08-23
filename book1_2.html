@@ -1,0 +1,258 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample HTML Code - NewsLetter Form</title>
+  <style>
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: white;
+  background-color: #f1f1f1;
+  overflow: hidden;
+overflow-x: hidden;
+padding-bottom: 50px;
+}
+::-webkit-scrollbar {
+width: 0;  
+background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+background: #000000;
+}
+
+main {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.title {
+  padding: 1rem;
+  font-size: 1.75rem;
+}
+
+.sign-up {
+  width: 100%;
+}
+
+.sign-up-para {
+  padding: 1rem 5rem;
+  margin-bottom: 1.75rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 8px 0px rgba(0 0 0/0.15);
+  background-color: #051294;
+  text-align: center;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+ 
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 8px 0px rgba(0 0 0/0.15);
+  color: #b9b6d3;
+  background-color: white;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.form-input span {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding: 0 0.65em;
+  border-radius: 50%;
+  background-color: #ff7a7a;
+  color: white;
+  display: none;
+}
+
+.form-input.warning span {
+  display: inline-block;
+}
+
+.form-input input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid rgba(185, 182, 211, 0.25);
+  border-radius: 0.5em;
+  font-weight: 600;
+  color: #3e3c49;
+}
+
+.form-input input:focus {
+  outline: none;
+  border: 2px solid #b9b6d3;
+}
+
+.form-input.warning input {
+  border: 2px solid #ff7a7a;
+}
+
+.form-input p {
+  margin: 0.2em 0.75em 0 0;
+  display: none;
+  font-size: 0.75rem;
+  text-align: right;
+  font-style: italic;
+  color: #ff7a7a;
+}
+
+.form-input.warning p {
+  display: block;
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: none;
+  border-bottom: 5px solid #31bf81;
+  border-radius: 0.5em;
+  background-color: #38cc8c;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background-color: #5dd5a1;
+}
+
+.form-term {
+  margin-bottom: 0.75em;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.form-term span {
+  font-weight: 700;
+  color: #ff7a7a;
+}
+
+@media (min-width: 768px) {
+  body {
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  main {
+    max-width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .intro {
+    align-items: flex-start;
+    text-align: left;
+    width: 47%;
+    margin-right: 1rem;
+  }
+
+  .title {
+    padding: 0;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 1.25em;
+  }
+
+  .sign-up {
+    width: 45%;
+  }
+
+  .sign-up-form {
+    padding: 1.75rem;
+  }
+
+  .sign-up-form input {
+    padding-left: 1.5em;
+  }
+}
+p{
+  text-align: justify;
+  text-indent: 50px;
+  color: black;
+}
+h1{
+  text-align: justify;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+  </style>
+</head>
+
+<body> 
+  <main>
+   
+    <section class="intro; sign-up">
+      <form class="sign-up-form" >
+
+      
+      <h1 class="title" style="color: #000000;margin-bottom: 0; text-align: center;">Understanding the Basics of CPU</h1>
+ <p style="text-align: center;text-indent: 0;margin-bottom: 0;">Memory, Motherboards, and Power Supplies </p>
+  
+     <img src="./assets/cover1png.png" width="250" height="500" alt="Cover Image" class="centered-image">
+      
+        <p style="text-align: justify;text-indent: 0; text-align: center;">By Paragatos</p>
+
+        <h1 style="text-align: left; color: #000000;">1. What are the two basic components inside a CPU?</h1>
+        <p style="color: #000000;">A classic CPU has two basic components. First is the arithmetic logic unit also known as (ALU), which performs tasks such as arithmetic and logical operations, second is the control unit also known as CU which manages various components of the computer <a href="https://study.com/learn/lesson/central-processing-unit-parts-function.html#:~:text=A%20typical%20CPU%20has%20a,various%20components%20of%20the%20computer." target="_blank">(Bialowas, 2023). </a> 
+      </p>
+      <h1 style="text-align: left; color: #000000;">2. What is the difference between static and dynamic memory?
+      </h1>
+        <p style="color: #000000;">Static memory allocation, in static memory allocation the size of the memory, is determined by the time it takes to compile meaning it cannot be changed while the program is still running, It is also limited in flexibility the file itself cannot be altered once its allocated, it's better use for arrays or data structures. </p>
+       <p> While dynamic memory is known as flexible as it can be allocated at runtime meaning it can be adjusted when needed even if the program is still running. However, static memory is simpler but more rigid, while dynamic memory is more flexible but requires careful management to avoid issues like memory leaks <a href="https://unacademy.com/content/gate-cse-it/difference-between-static-and-dynamic-memory-allocation-in-c/#:~:text=In%20static%20memory%20allocation%2C%20the,the%20memory%20can%20be%20changed.&text=Static%20memory%20allocation%20is%20preferred,preferred%20in%20the%20linked%20list." target="_blank"> (UNacademy, 2022).</p></a>
+
+        </p>
+
+        <h1 style="text-align: left; color: #000000;">3. What are four ways in which one motherboard may differ from another?
+
+        </h1>
+         <p> <b>1. Brand and version</b>, depending on the motherboards brand and version some motherboards can outperform other motherboard brands especially if it's old.</p>
+         <p> <b>2. Sata sockets</b>, some motherboards have only few SATA sockets, some have many and it differs whether your unit can handle multiple storage devices HDD/SDD or even M.2.</p>
+         <p> <b>3. Design</b>, some motherboards are built to be more compact and not take a big chunk of space inside the unit.</p>
+         <p> <b>4. RAM slots</b>, some motherboards can fit more than four RAM slots, some can only fit two RAM inside the motherboard. And these are the four ways in which one motherboard may differ from other; some can be defined in design, some in model and some for its compatibility <a href="https://unacademy.com/content/gate-cse-it/difference-between-static-and-dynamic-memory-allocation-in-c/#:~:text=In%20static%20memory%20allocation%2C%20the,the%20memory%20can%20be%20changed.&text=Static%20memory%20allocation%20is%20preferred,preferred%20in%20the%20linked%20list." target="_blank"> (UNacademy, 2022).</a>
+         </p>
+         
+         <h1 style="text-align: left; color: #000000;"> 4. Why does a power supply have different colored wires?</h1>
+         <p> The wires are color-coded based on the types of electric flow through the wires, type of current, phases of the wires, and on the basis or order of connection <a href="https://paramountcables.com/blog-posts/why-wires-come-in-different-colors/#:~:text=The%20wires%20are%20often%20color,basis%20or%20order%20of%20connection." target="_blank"> (Paramount n.d).</p></a>
+     
+
+        
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
